@@ -46,3 +46,17 @@ header img{
     font-size: 50px;
 }
 /* /Jumbotron */
+
+/* Client Section */
+.client-section{
+    background-color: #f6f7f7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-section li{
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/* /Client Section */
