@@ -26,6 +26,22 @@ p{
     border: 1px solid #1b304b;
     margin: 25px 0;
 }
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #5ddecc;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: #426ead;
+    transition: 0.5s linear;
+}
 /* /Testo */
 
 /* Fonts */
@@ -103,22 +119,6 @@ header img{
 .wrapper p{
     margin-bottom: 25px;
 }
-
-.wrapper button{
-    border: none;
-    padding: 10px 20px;
-    background-color: #5ddecc;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 600;
-    border-radius: 25px;
-}
-
-.wrapper button:hover{
-    background-color: #426ead;
-    transition: 0.5s linear;
-}
 /* /Cloud Based Finance */
 
 /* Speciality Service */
@@ -165,6 +165,7 @@ header img{
 .box button{
     width: 100%;
     border: none;
+    border-radius: 0;
     background-color: #5ddecc;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -175,10 +176,55 @@ header img{
     background-color: #426ead;
     transition: 0.5s linear;
 }
-
-
-
-
-
-
 /* /Speciality Service */
+
+/* Investment */
+.numbers-box{
+    width: 100%;
+    display: flex;
+}
+
+.img-box-num,
+.perc-box{
+    width: calc(100% / 3);
+}
+
+.img-box-num{
+    background-image: url('../img/counters-bg-image.jpg');
+    padding: 150px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-box-num p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.img-box-num h2{
+    color: white;
+    margin: 50px 0;
+}
+
+.perc-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.numbers{
+    width: 100%;
+    padding: 50px;
+}
+
+.perc-box h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #426ead;
+}
+
+/* /Investment */
