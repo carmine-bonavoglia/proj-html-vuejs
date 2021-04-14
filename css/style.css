@@ -8,11 +8,25 @@
     color: #5ddecc;
 }
 
+/* Testo */
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+p{
+    color: #949494;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
 .br-line{
-    content: '';
     width: 90px;
     border: 1px solid #1b304b;
+    margin: 25px 0;
 }
+/* /Testo */
 
 /* Fonts */
 .container{
@@ -21,9 +35,9 @@
 
 /* 
 
-font-family: 'EB Garamond', serif;
+    font-family: 'Nanum Myeongjo', serif;
 
-font-family: 'PT Sans', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
 
 */
 /* Header */
@@ -46,7 +60,7 @@ header img{
 }
 
 .jumbotron h1{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Nanum Myeongjo', serif;
     color: white;
     line-height: 750px;
     font-size: 60px;
@@ -86,24 +100,85 @@ header img{
     line-height: 1.6;
 }
 
-.wrapper h2{
-    font-size: 40px;
-    font-weight: 400;
-}
-
 .wrapper p{
-    margin: 20px 0;
-    color: #949494;
+    margin-bottom: 25px;
 }
 
 .wrapper button{
     border: none;
     padding: 10px 20px;
     background-color: #5ddecc;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: white;
     font-weight: 600;
     border-radius: 25px;
 }
+
+.wrapper button:hover{
+    background-color: #426ead;
+    transition: 0.5s linear;
+}
 /* /Cloud Based Finance */
+
+/* Speciality Service */
+.speciality{
+    text-align: center;
+    background-color: #f6f7f7;
+    padding: 100px;
+}
+
+.speciality .br-line{
+    margin: 25px auto;
+}
+
+.box-section{
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.box{
+    width: calc(100% / 3);
+    background-color: white;
+    margin: 10px;
+}
+
+.box i{
+    color: #426ead;
+    font-size: 60px;
+    margin: 25px 0;
+}
+
+.box h3{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+}
+
+.box p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+.box button{
+    width: 100%;
+    border: none;
+    background-color: #5ddecc;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px
+}
+
+.box button:hover{
+    background-color: #426ead;
+    transition: 0.5s linear;
+}
+
+
+
+
+
+
+/* /Speciality Service */
