@@ -327,7 +327,7 @@ header img{
 }
 
 .footer-section .four-boxes i.fab{
-    font-size: 35px;
+    font-size: 30px;
     color: #4876b5;
 }
 
@@ -335,3 +335,30 @@ header img{
     font-size: 10px;
 }
 /* /Footer */
+
+/* Copyright */
+.copyright-section{
+    width: 100%;
+    background-color: #121316;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right-copy ul li{
+    width: 35px;
+    height: 35px;
+    list-style: none;
+    display: inline-block;
+    color:white;
+    background-color: #5ddecc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.left-copy p{
+    line-height: 35px;
+    font-size: 11px;
+}
+/* /Copyright */
