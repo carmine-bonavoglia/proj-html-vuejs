@@ -228,3 +228,48 @@ header img{
 }
 
 /* /Investment */
+
+/* Client Feedback */
+.client-section{
+    width: 100%;
+    display: flex;
+}
+
+.four-boxes{
+    width: calc(100% / 4);
+    background-color: #fff;
+    text-align: center;
+}
+
+.client-box,
+.user-box{
+    border: 1px solid #f6f7f7;
+}
+
+.client-box{
+    padding: 30px 40px;
+}
+
+.client-box p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.user-box{
+    padding: 20px;
+}
+
+.user-box p{
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.user-box p.bold{
+    color: black;
+    font-size: 14px;
+}
+
+/* /Client Feedback */
