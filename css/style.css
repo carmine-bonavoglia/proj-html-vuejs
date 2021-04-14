@@ -296,6 +296,42 @@ header img{
     font-family: 'Nanum Myeongjo', serif;
     font-size: 18px;
 }
-
-
 /* /Ready to talk */
+
+/* Footer */
+.footer-section{
+    background-color: #19191f;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-section .four-boxes{
+    background-color: transparent;
+    text-align: left;
+}
+
+.footer-section p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-section ul li{
+    list-style: none;
+    color: #949494;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer-section .four-boxes i.fab{
+    font-size: 35px;
+    color: #4876b5;
+}
+
+.footer-section .four-boxes i.fas{
+    font-size: 10px;
+}
+/* /Footer */
