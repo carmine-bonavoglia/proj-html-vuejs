@@ -271,5 +271,31 @@ header img{
     color: black;
     font-size: 14px;
 }
-
 /* /Client Feedback */
+
+/* Ready to talk */
+.talk-section{
+    text-align: center;
+    padding: 100px;
+    background-image: url('../img/ready_to_talk_cta_bg.jpg');
+}
+
+.wrapper-ready{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.talk-section h2{
+    color: white;
+    font-size: 60px;
+}
+
+.talk-section p{
+    line-height: 1.6;
+    margin: 40px 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+}
+
+
+/* /Ready to talk */
