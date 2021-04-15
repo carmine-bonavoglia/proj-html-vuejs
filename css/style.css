@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.celestino{
-    color: #5ddecc;
+.container{
+    width: 100%;
 }
 
 /* Testo */
@@ -49,29 +49,28 @@ li:hover{
 }
 /* /Testo */
 
-/* Fonts */
-.container{
-    width: 100%;
-}
-
-/* 
-
-    font-family: 'Nanum Myeongjo', serif;
-
-    font-family: 'Roboto', sans-serif; 
-
-*/
 /* Header */
 header{
+    width: 100%;
     padding: 0 60px;
     height: 70px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 
 header img{
     height: 50px;
     margin: 10px 0;
+}
+
+.header-menu li:nth-child(3)::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: " \f078";
+    font-size: 10px;
 }
 
 .header-menu li{
@@ -99,6 +98,7 @@ header img{
     height: 750px;
     background-image: url('../img/home_finance_slider_bg.jpg');
     text-align: center;
+    margin-top: 70px;
 }
 
 .jumbotron h1{
@@ -107,6 +107,10 @@ header img{
     line-height: 750px;
     font-size: 60px;
     font-weight: 400;
+}
+
+.celestino{
+    color: #5ddecc;
 }
 /* /Jumbotron */
 
@@ -350,6 +354,13 @@ header img{
     color: #949494;
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.footer-section ul li::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: " \f054";
+    font-size: 10px;
 }
 
 .footer-section ul li:hover{
