@@ -41,6 +41,11 @@ button{
 button:hover{
     background-color: #426ead;
     transition: 0.5s linear;
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
 }
 /* /Testo */
 
@@ -58,11 +63,32 @@ button:hover{
 */
 /* Header */
 header{
-    height: 90px;
+    padding: 0 60px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header img{
-    margin: 20px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.header-menu li{
+    font-family: 'Roboto', sans-serif; 
+    display: inline-block;
+    text-transform: uppercase;
+    color: #949494;
+    line-height: 70px;
+    padding: 0 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-menu li:hover{
+    background-color: #f6f7f7;
+    color: black;
+    transition: .5s linear;
 }
 /* /Header */
 
@@ -326,6 +352,11 @@ header img{
     font-size: 14px;
 }
 
+.footer-section ul li:hover{
+    color: white;
+    transition: .5s linear;
+}
+
 .footer-section .four-boxes i.fab{
     font-size: 30px;
     color: #4876b5;
@@ -355,6 +386,12 @@ header img{
     border-radius: 50%;
     text-align: center;
     line-height: 35px;
+}
+
+.right-copy ul li:hover{
+    background-color:transparent;
+    color: #5ddecc;
+    transition: .5s linear;
 }
 
 .left-copy p{

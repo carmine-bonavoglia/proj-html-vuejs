@@ -25,11 +25,18 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="app">
 
         <!-- Header con Logo e Menù -->
         <header>
-            <img src="img/finance_logo_1x.png" alt="Avada Finance Logo">
+            <img v-bind:src="'img/' + $data.logoHeader" alt="Avada Finance Logo">
+            <div class="header-menu">
+                <ul>
+                    <li class="h-menu-item" v-for="items in headerMenu">{{items}}</li>
+                    <button>Contact</button>
+                    <li><i class="fas fa-plus"></i></li>
+                </ul>
+            </div>
             <!-- Menù -->
         </header>    
         <!-- /Header -->
@@ -190,22 +197,18 @@
         <!-- Footer -->
         <div class="footer-section">
             <div class="four-boxes">
-                <img src="img/finance_logo_footer.png" alt="Avada Finace Logo">
+                <img v-bind:src="'img/' + $data.logoFooter" alt="Avada Finace Logo">
             </div>
             <div class="four-boxes">
                 <p>RECENT POSTS</p>
                 <ul>
-                    <li><i class="fas fa-chevron-right"></i> Item</li>
-                    <li><i class="fas fa-chevron-right"></i> Item</li>
-                    <li><i class="fas fa-chevron-right"></i> Item</li>
+                    <li v-for="items in recent"><i class="fas fa-chevron-right"></i> {{items}}</li>
                 </ul>
             </div>
             <div class="four-boxes">
                 <p>Services</p>
                 <ul>
-                    <li><i class="fas fa-chevron-right"></i> Item</li>
-                    <li><i class="fas fa-chevron-right"></i> Item</li>
-                    <li><i class="fas fa-chevron-right"></i> Item</li>
+                    <li v-for="items in services"><i class="fas fa-chevron-right"></i> {{items}}</li>
                 </ul>
             </div>
             <div class="four-boxes">
